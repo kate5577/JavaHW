@@ -11,6 +11,7 @@ public class E2StringDemo {
         System.out.println(str.replaceAll("[a-zA-Z]","%"));
         System.out.println(str.replaceAll("[a-v]","*"));
         System.out.println(str.replaceAll("[#-z]","*"));
+
         char c='A';
         c++;
         System.out.println(c);
